@@ -195,3 +195,8 @@
 .calories >div> :nth-child(2){
     color: white;
 }
+.hero-blur{
+    width: 22rem;
+    height: 22rem;
+    left: 0;
+}
