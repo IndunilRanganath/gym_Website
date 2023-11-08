@@ -48,3 +48,21 @@
     background-color: var(--orange);
     color: white;
 }
+
+@media screen and (max-width:768px){
+    .Join{
+        flex-direction: column;
+        color: white;
+        margin-top: -5rem;
+    }
+    .left-j{
+        font-size: xx-large;
+        flex-direction: column;
+    }
+    .right-j {
+        margin-top: -8rem;
+        width: max-content;
+        margin-left: -5rem;
+    }
+
+}

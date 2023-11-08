@@ -200,3 +200,87 @@
     height: 22rem;
     left: 0;
 }
+@media screen and (max-width:768px){
+    .hero{
+        flex-direction: column;
+    }
+    .hero-blur{
+        width: 14rem;
+    }
+    .the-best-ad{
+        margin-top: 0;
+        font-size: small;
+        align-items: center;
+        transform: scale(0.8);
+    }
+    .hero-text{
+        font-size: xx-large;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        
+        
+    }
+    .hero-text>div:nth-of-type(3){
+        font-size: small;   
+        margin-top: 1rem;
+        font-weight: 200;
+        text-align: center;
+        margin-left: 1.5rem;
+
+    }
+
+    .hero-button{
+        justify-content: center;
+    }
+    .figures > div > span:nth-child(1){
+        font-size: large;
+    }
+    .figures > div > span:nth-child(2){
+        font-size: small;
+    }
+
+    .right-h{
+        position: relative;
+        background: none;
+    }
+    .right-h > .btn{
+        right: 1rem;
+        top: 0;
+        
+    }
+
+    .heart-rate{
+        margin-left: -3rem;
+        top: -1rem;
+    }
+
+    .calories{
+        position: relative;
+        top: 7rem;
+        left: 2rem;
+    }
+    .calories>img{
+        width: 2rem;
+    }
+    .calories>div>span:nth-child(2){
+        color: white;
+        font-size: 1rem;
+    }
+    .hero-image{
+        position: relative;
+        width: 14rem;
+        left: 7rem;
+        top: 4rem;
+        align-items: center;
+    }
+    .hero-image-back{
+        width: 15rem;
+        left: 2rem;
+        top: 0;
+    }
+
+
+
+
+}
