@@ -2,11 +2,11 @@
 :root {
   --lightgray: #D9D9D9;
   --gray: #9c9c9c;
-  --orange: #f48915;
-  --darkGrey: #464D53;
-  --caloryCard: #656565;
+  --orange: #24183E;
+  --darkGrey: hsl(282, 67%, 42%);
+  --caloryCard: #61028E;
   --planCard: linear-gradient(210.41deg, #fa5042 1.14%, #ffa739 100.75%);
-  --appColor:  #3c3f45;
+  --appColor:  #5C2547;
 }
 
 .App {
