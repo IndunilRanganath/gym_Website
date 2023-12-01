@@ -1,25 +1,26 @@
-.hero {
+.hero{
     display: flex;
     justify-content: space-between;
     height: 100vh;
 }
 
-.left-h {
+.left-h{
     padding: 2rem;
     padding-top: 1.5rem;
     flex: 3;
     display: flex;
     flex-direction: column;
     gap: 2rem;
+
 }
 
-.right-h {
+.right-h{
     flex: 1;
     position: relative;
     background-color: var(--orange);
 }
 
-.the-best-ad {
+.the-best-ad{
     color: white;
     margin-top: 70px;
     background-color: #363d42;
@@ -31,13 +32,13 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    
 }
-
-.the-best-ad > span {
+.the-best-ad>span{
     z-index: 2;
 }
 
-.the-best-ad > div {
+.the-best-ad>div{
     position: absolute;
     background-color: var(--orange);
     width: 5.4rem;
@@ -47,22 +48,22 @@
     z-index: 1;
 }
 
-.the-best-ad:hover {
+.the-best-ad:hover{
     cursor: pointer;
     background-color: var(--orange);
     color: white;
 }
 
-.hero-text {
+.hero-text{
     color: white;
     font-size: 7rem;
     font-weight: bold;
     line-height: 1.2;
     text-transform: uppercase;
     text-overflow: inherit;
+    
 }
-
-.hero-text > div:nth-of-type(3) {
+.hero-text>div:nth-of-type(3){
     font-size: 1rem;
     font-weight: 200;
     text-transform: none;
@@ -70,37 +71,37 @@
     width: 80%;
 }
 
-.figures {
+.figures{
     display: flex;
     gap: 2rem;
     margin-top: 20px;
 }
 
-.figures > div {
+.figures>div{
     display: flex;
     flex-direction: column;
 }
 
-.figures > div > span:nth-of-type(1) {
+.figures>div>span:nth-of-type(1){
     color: white;
     font-size: 2rem;
 }
 
-.figures > div > span:nth-of-type(2) {
+.figures>div>span:nth-of-type(2){
     color: var(--gray);
     text-transform: uppercase;
 }
 
-.btn {
+.btn{
     padding: 0.8rem;
     text-transform: uppercase;
     font-weight: bold;
     border: 1px solid transparent;
-    transition: 300ms all;
+    transition: 300ms all; 
     margin-left: 20px;
 }
 
-.hero-button {
+.hero-button{
     display: flex;
     gap: 1rem;
     font-weight: normal;
@@ -108,31 +109,27 @@
     margin-top: 20px;
 }
 
-.hero-button > :nth-child(1) {
+.hero-button>:nth-child(1){
     color: white;
     background-color: var(--orange);
-    width: 10rem;
+    width: 8rem;
 }
 
-.hero-button > :nth-child(2) {
+.hero-button>:nth-child(2){
     color: white;
     background-color: transparent;
     border: 1px solid var(--orange);
-    width: 10rem;
+    width: 8rem;
 }
 
-.btn:hover {
+.btn:hover{
     cursor: pointer;
 }
-
-.right-h > .btn {
+.right-h>.btn{
     position: absolute;
-    right: 3rem;
-    top: 2rem;
-    color: black;
+    right: 3rem;top: 2rem; color: black;
 }
-
-.heart-rate {
+.heart-rate{
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -146,28 +143,24 @@
     top: 7rem;
     margin-top: 1rem;
 }
-
-.heart-rate > img {
+.heart-rate>img{
     width: 2rem;
 }
-
-.heart-rate > :nth-child(2) {
+.heart-rate>:nth-child(2){
     color: var(--gray);
 }
-
-.heart-rate > :nth-child(3) {
+.heart-rate>:nth-child(3){
     color: white;
     font-size: 1.5rem;
 }
-
-.hero-image {
+.hero-image{
     position: relative;
     top: 14rem;
     right: 8rem;
-    width: 35rem;
+    width: 25rem;
 }
 
-.hero-image-back {
+.hero-image-back{
     position: absolute;
     top: 14rem;
     right: 26rem;
@@ -175,7 +168,7 @@
     width: 15rem;
 }
 
-.calories {
+.calories{
     display: flex;
     gap: 1rem;
     background-color: var(--caloryCard);
@@ -184,117 +177,111 @@
     width: max-content;
     position: absolute;
     top: 38rem;
-    right: 40rem;
+    right: 35rem;
 }
 
-.calories > img {
+.calories >img{
     width: 3rem;
 }
 
-.calories > div {
+.calories >div{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.calories > div > :nth-child(1) {
+.calories >div> :nth-child(1){
     color: var(--gray);
 }
-
-.calories > div > :nth-child(2) {
+.calories >div> :nth-child(2){
     color: white;
 }
-
-.hero-blur {
+.hero-blur{
     width: 22rem;
     height: 22rem;
     left: 0;
 }
-
-@media screen and (max-width: 768px) {
-    .hero {
+@media screen and (max-width:768px){
+    .hero{
         flex-direction: column;
     }
-
-    .hero-blur {
+    .hero-blur{
         width: 14rem;
     }
-
-    .the-best-ad {
+    .the-best-ad{
         margin-top: 0;
         font-size: small;
         align-items: center;
         transform: scale(0.8);
     }
-
-    .hero-text {
+    .hero-text{
         font-size: xx-large;
         align-items: center;
         text-align: center;
         justify-content: center;
+        
+        
     }
-
-    .hero-text > div:nth-of-type(3) {
-        font-size: small;
+    .hero-text>div:nth-of-type(3){
+        font-size: small;   
         margin-top: 1rem;
         font-weight: 200;
         text-align: center;
         margin-left: 1.5rem;
+
     }
 
-    .hero-button {
+    .hero-button{
         justify-content: center;
     }
-
-    .figures > div > span:nth-child(1) {
+    .figures > div > span:nth-child(1){
         font-size: large;
     }
-
-    .figures > div > span:nth-child(2) {
+    .figures > div > span:nth-child(2){
         font-size: small;
     }
 
-    .right-h {
+    .right-h{
         position: relative;
         background: none;
     }
-
-    .right-h > .btn {
+    .right-h > .btn{
         right: 1rem;
         top: 0;
+        
     }
 
-    .heart-rate {
+    .heart-rate{
         margin-left: -3rem;
         top: -1rem;
     }
 
-    .calories {
+    .calories{
         position: relative;
         top: 7rem;
         left: 2rem;
     }
-
-    .calories > img {
-        width: 3rem;
+    .calories>img{
+        width: 2rem;
     }
-
-    .calories > div > span:nth-child(2) {
+    .calories>div>span:nth-child(2){
         color: white;
         font-size: 1rem;
     }
-
-    .hero-image {
+    .hero-image{
         position: relative;
         width: 16rem;
         left: 10rem;
         top: 4rem;
         align-items: center;
     }
-
-    .hero-image-back {
+    .hero-image-back{
         width: 15rem;
         left: 2rem;
         top: 0;
     }
+
+
+
+
 }
