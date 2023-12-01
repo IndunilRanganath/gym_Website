@@ -111,14 +111,14 @@
 .hero-button > :nth-child(1) {
     color: white;
     background-color: var(--orange);
-    width: 8rem;
+    width: 10rem;
 }
 
 .hero-button > :nth-child(2) {
     color: white;
     background-color: transparent;
     border: 1px solid var(--orange);
-    width: 8rem;
+    width: 10rem;
 }
 
 .btn:hover {
@@ -184,7 +184,7 @@
     width: max-content;
     position: absolute;
     top: 38rem;
-    right: 35rem;
+    right: 40rem;
 }
 
 .calories > img {
@@ -276,7 +276,7 @@
     }
 
     .calories > img {
-        width: 2rem;
+        width: 3rem;
     }
 
     .calories > div > span:nth-child(2) {
