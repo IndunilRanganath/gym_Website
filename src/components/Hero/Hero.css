@@ -154,15 +154,15 @@
     font-size: 1.5rem;
 }
 .hero-image{
-    position: absolute;
-    top: 12rem;
+    position: relative;
+    top: 14rem;
     right: 8rem;
-    width: 28rem;
+    width: 25rem;
 }
 
 .hero-image-back{
     position: absolute;
-    top: 4rem;
+    top: 14rem;
     right: 26rem;
     z-index: -1;
     width: 15rem;
@@ -270,8 +270,8 @@
     }
     .hero-image{
         position: relative;
-        width: 14rem;
-        left: 7rem;
+        width: 16rem;
+        left: 10rem;
         top: 4rem;
         align-items: center;
     }

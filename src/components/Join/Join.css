@@ -54,6 +54,7 @@
         flex-direction: column;
         color: white;
         margin-top: -5rem;
+        align-items: center;
     }
     .left-j{
         font-size: xx-large;
@@ -61,8 +62,10 @@
     }
     .right-j {
         margin-top: -8rem;
-        width: max-content;
-        margin-left: -5rem;
+        left: 2rem;
+        padding: 0;
+        
+        
     }
 
 }

@@ -20,7 +20,7 @@ export const Hero = () => {
 
         <div className='the-best-ad'>
           <motion.div
-          initial = {{left: moblie? "135px": "238px"}}
+          initial = {{left: moblie? "135px": "180px"}}
           whileInView = {{left: '8px'}}
           transition = {{...transition, type:'tween'}}>
           </motion.div>
